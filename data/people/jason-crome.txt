@@ -1,0 +1,4 @@
+name: Jason A. Crome
+github: cromedome
+twitter: cromedome
+home: https://www.crome-plated.com/

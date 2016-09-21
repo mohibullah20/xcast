@@ -1,0 +1,8 @@
+project: Perl 5
+url: https://www.perl.org/
+description: Dynamic programming language
+guests: sawyer
+hosts: gabor-szabo
+keywords: "language", "perl"
+permalink: http://code-maven.com/cmos-2-sawyer-perl5
+notes: Monthly dev release, annual production release around May.

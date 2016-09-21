@@ -1,0 +1,7 @@
+project: Perl Dancer
+url: http://perldancer.org/
+description: Simple but powerful web application framework for Perl
+guests: jason-crome
+hosts: gabor-szabo
+keywords: "perl", "web", "dancer"
+permalink: http://code-maven.com/cmos-1-jason-crome-perl-dancer2

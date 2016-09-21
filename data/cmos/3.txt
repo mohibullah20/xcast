@@ -1,0 +1,7 @@
+project: Mojolicious
+url: http://mojolicious.org/
+description: Modern, non-blocking Web framework in Perl
+guests: joel-berger
+hosts: gabor-szabo
+keywords: "perl", "web"
+permalink: http://code-maven.com/cmos-3-joel-berger-mojolicious
