@@ -1,0 +1,28 @@
+[
+	{
+		"name"   : "cmos",
+		"title"  : "Code-Maven Open Source podcast and video interviews",
+		"url"    : "http://code-maven.com/cmos",
+		"feed"   : "http://code-maven.com/rss/cmos",
+		"itunes" : "https://itunes.apple.com/il/podcast/code-maven/id1153427237"
+	},
+	{
+		"name"   : "changelog",
+		"title"  : "ChangeLog",
+		"url"    : "https://changelog.com/podcast/",
+		"feed"   : "http://feeds.5by5.tv/changelog",
+		"itunes" : "https://itunes.apple.com/podcast/the-changelog/id341623264"
+	},
+	{
+		"name"   : "rfc",
+		"url"    : "https://changelog.com/rfc/"
+	},
+	{
+		"name"   : "talkpython",
+		"url"    : "http://talkpython.fm/"
+	},
+	{
+		"name"   : "codenewbie",
+		"url"    : "http://www.codenewbie.org/"
+	}
+]
