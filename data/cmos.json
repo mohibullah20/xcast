@@ -19,6 +19,7 @@
     ],
     "keywords": ["perl", "web", "dancer"],
     "permalink": "http://code-maven.com/cmos-1-jason-crome-perl-dancer2",
+    "title" : "Jason A. Crome on Perl Dancer 2",
     "date": "2016-08-23"
   },
   {
@@ -42,6 +43,7 @@
     ],
     "keywords": ["language", "perl"],
     "permalink": "http://code-maven.com/cmos-2-sawyer-perl5",
+    "title": "Sawyer X the Pumpkin of Perl 5",
     "date" : "2016-08-24"
   }
 ]

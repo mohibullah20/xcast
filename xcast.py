@@ -51,12 +51,9 @@ def main():
         people_list = []
         for p in people.keys():
             print(p)
-            # people_list.append({
-            #     'id' : p,
-            #     'name' : p''Foo'
-            # })
+            print(people[p])
             with open('html/p/' + p, 'w') as fh:
-                fh.write(person_template.render(name = p))
+                fh.write(person_template.render(id = p, person = people[p]))
 
         main_template = env.get_template('index.html')
         with open('html/index.html', 'w') as fh:
