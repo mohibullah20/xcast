@@ -26,7 +26,7 @@
       "sawyer" : {
         "name": "Sawyer X",
         "github": "xsawyerx",
-        "twitter": "PerlSawyer"
+        "twitter": "PerlSawyer",
         "home": "http://blogs.perl.org/users/sawyer_x/"
       }
     },
@@ -40,7 +40,7 @@
         "description": "Dynamic programming language"
       }
     ],
-    "keywords": ["language", "perl"]
+    "keywords": ["language", "perl"],
     "permalink": "http://code-maven.com/cmos-2-sawyer-perl5",
     "date" : "2016-08-24"
   }

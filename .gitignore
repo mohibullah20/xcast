@@ -1,4 +1,5 @@
 /venv3
 __pycache__
 /html/*.html
+/html/p
 /.idea
