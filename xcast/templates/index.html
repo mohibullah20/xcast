@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>xCast</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-</head>
-<body>
-    <h1>xCast</h1>
-
+{% include 'incl/header.html' %}
     <h2>Sources</h2>
     <ul id="sources">
     {% for s in sources %}
         <li><a href="{{ s.url }}">{{ s.name }}</a> {{ s.title }}</li>
     {% endfor %}
     </ul>
+{% include 'incl/footer.html' %}
 
-</body>
-</html>
 

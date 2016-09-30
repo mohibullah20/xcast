@@ -13,6 +13,10 @@ number, but it will probably also mean it is going to be hard to cross-refrence 
 We can have JSON format where each person is either have full-details in the podcast-specific json file
 or has an id there and has all the information in a separate file.
 
+/
+/p/person-code
+
+
 
 SETUP
 ------
