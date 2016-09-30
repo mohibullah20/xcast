@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <title>xCast</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 <body>
     <h1>xCast</h1>
 
+    <h2>Sources</h2>
     <ul id="sources">
     {% for s in sources %}
         <li><a href="{{ s.url }}">{{ s.name }}</a> {{ s.title }}</li>

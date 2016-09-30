@@ -1,7 +1,5 @@
 import argparse
 import json
-#import xcast
-#from jinja2 import Template
 from jinja2 import Environment, PackageLoader
 
 # TODO: fetch source and create the first n entries
@@ -23,7 +21,7 @@ def main():
         env = Environment(loader=PackageLoader('xcast', 'templates'))
         template = env.get_template('index.html')
         with open('html/index.html', 'w') as fh:
-            fh.write(template.render(source = sources))
+            fh.write(template.render(sources = sources))
     else:
         parser.print_help()
 

@@ -1,0 +1,47 @@
+[
+  {
+    "guests": {
+      "jason-crome" : {
+        "name" : "Jason A. Crome",
+        "twitter" : "cromedome",
+        "github" : "cromedome",
+        "home": "https://www.crome-plated.com/"
+      }
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "topics" : [
+      {
+        "name": "Perl Dancer",
+        "url": "http://perldancer.org/"
+      }
+    ],
+    "keywords": ["perl", "web", "dancer"],
+    "permalink": "http://code-maven.com/cmos-1-jason-crome-perl-dancer2",
+    "date": "2016-08-23"
+  },
+  {
+    "guests" :{
+      "sawyer" : {
+        "name": "Sawyer X",
+        "github": "xsawyerx",
+        "twitter": "PerlSawyer"
+        "home": "http://blogs.perl.org/users/sawyer_x/"
+      }
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "topics" : [
+      {
+        "name": "Perl 5",
+        "url": "https://www.perl.org/",
+        "description": "Dynamic programming language"
+      }
+    ],
+    "keywords": ["language", "perl"]
+    "permalink": "http://code-maven.com/cmos-2-sawyer-perl5",
+    "date" : "2016-08-24"
+  }
+]
