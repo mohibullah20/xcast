@@ -48,14 +48,19 @@ def main():
         person_template = env.get_template('person.html')
         if not os.path.exists('html/p/'):
             os.mkdir('html/p/')
+        people_list = []
         for p in people.keys():
             print(p)
+            # people_list.append({
+            #     'id' : p,
+            #     'name' : p''Foo'
+            # })
             with open('html/p/' + p, 'w') as fh:
                 fh.write(person_template.render(name = p))
 
         main_template = env.get_template('index.html')
         with open('html/index.html', 'w') as fh:
-            fh.write(main_template.render(sources = sources))
+            fh.write(main_template.render(sources = sources, people = people, people_ids = sorted(people.keys()) ))
     else:
         parser.print_help()
 
