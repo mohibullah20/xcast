@@ -1,0 +1,17 @@
+[
+  {
+    "guests": {
+      "tracy-osborn" : {},
+      "naomi-ceder" : {},
+      "lynn-root" : {}
+    },
+    "hosts" : {
+        "tobias-macey" : {},
+        "chris-patti"  : {}
+    },
+    "keywords": ["PyLadies"],
+    "permalink": "http://pythonpodcast.com/episode-11-tracy-osborn-naomi-ceder-and-lynn-root-on-women-and-diversity-in-python.html",
+    "title" : "Tracy Osborn, Naomi Ceder and Lynn Root on Women and Diversity in Python",
+    "date": "2015-06-10"
+  }
+]

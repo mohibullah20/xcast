@@ -27,5 +27,15 @@
 		"url"    : "http://www.codenewbie.org/",
 		"feed"   : "http://feeds.codenewbie.org/cnpodcast.xml",
 		"itunes" : "https://itunes.apple.com/us/podcast/codenewbie/id919219256"
+	},
+	{
+		"name"   : "pythonpodcast",
+		"title"  : "Podcast.__init__",
+		"url"    : "http://pythonpodcast.com/"
+	},
+	{
+		"name"   : "software-engineering-daily",
+		"title"  : "Software Engineering Daily",
+		"url"    : "http://www.stitcher.com/podcast/software-engineering-daily/"
 	}
 ]

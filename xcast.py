@@ -55,8 +55,8 @@ def main():
             os.mkdir('html/p/')
         people_list = []
         for p in people.keys():
-            print(p)
-            print(people[p])
+            #print(p)
+            #print(people[p])
             with open('html/p/' + p, 'w') as fh:
                 fh.write(person_template.render(id = p, person = people[p]))
 
