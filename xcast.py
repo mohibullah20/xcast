@@ -1,6 +1,8 @@
 import argparse
+import glob
 import json
 import os
+import re
 from jinja2 import Environment, PackageLoader
 
 # TODO: fetch source and create the first n entries
@@ -21,7 +23,9 @@ def main():
             print('{:20} {}'.format(s.get('name', ''), s.get('title', '')))
     elif args.html:
         episodes = []
-        people = {}
+        people = read_people()
+        #print(people)
+        #exit()
         for s in sources:
             print("Processing source {}".format(s['name']))
             file = 'data/' + s['name'] + '.json'
@@ -37,10 +41,11 @@ def main():
         for e in episodes:
             for g in e['guests'].keys():
                 if g not in people:
-                    people[g] = {
-                        'info': e['guests'][g],
-                        'episodes' : []
-                    }
+                    exit("ERROR: '{}' is not in the list of people".format(g))
+                    #people[g] = {
+                    #    'info': e['guests'][g],
+                    #    'episodes' : []
+                    #}
                 people[g]['episodes'].append(e)
             #print(e)
 
@@ -60,6 +65,26 @@ def main():
             fh.write(main_template.render(sources = sources, people = people, people_ids = sorted(people.keys()) ))
     else:
         parser.print_help()
+
+def read_people():
+    people = {}
+    for filename in glob.glob("data/people/*.txt"):
+        this = {}
+        nickname = os.path.basename(filename)
+        nickname = nickname[0:-4]
+        #print(nickname)
+        with open(filename) as fh:
+            for line in fh:
+                line = line.rstrip('\n')
+                k,v = re.split(r'\s*:\s*', line, maxsplit=1)
+                #print(v)
+                this[k] = v
+        people[nickname] = {
+            'info': this,
+            'episodes' : []
+        }
+
+    return people
 
 
 main()

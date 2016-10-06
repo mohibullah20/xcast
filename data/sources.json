@@ -23,6 +23,9 @@
 	},
 	{
 		"name"   : "codenewbie",
-		"url"    : "http://www.codenewbie.org/"
+		"title"  : "CodeNewbie with Saron Yitbarek",
+		"url"    : "http://www.codenewbie.org/",
+		"feed"   : "http://feeds.codenewbie.org/cnpodcast.xml",
+		"itunes" : "https://itunes.apple.com/us/podcast/codenewbie/id919219256"
 	}
 ]

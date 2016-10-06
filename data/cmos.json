@@ -1,12 +1,7 @@
 [
   {
     "guests": {
-      "jason-crome" : {
-        "name" : "Jason A. Crome",
-        "twitter" : "cromedome",
-        "github" : "cromedome",
-        "home": "https://www.crome-plated.com/"
-      }
+      "jason-crome" : {}
     },
     "hosts" : {
         "gabor-szabo" : {}
@@ -24,12 +19,7 @@
   },
   {
     "guests" :{
-      "sawyer" : {
-        "name": "Sawyer X",
-        "github": "xsawyerx",
-        "twitter": "PerlSawyer",
-        "home": "http://blogs.perl.org/users/sawyer_x/"
-      }
+      "sawyer" : {}
     },
     "hosts" : {
         "gabor-szabo" : {}
