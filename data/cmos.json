@@ -35,5 +35,23 @@
     "permalink": "http://code-maven.com/cmos-2-sawyer-perl5",
     "title": "Sawyer X the Pumpkin of Perl 5",
     "date" : "2016-08-24"
+  },
+  {
+    "guests": {
+      "joel-berger" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "topics" : [
+      {
+        "name": "Mojolicious",
+        "url": "http://mojolicious.org/"
+      }
+    ],
+    "keywords": ["perl", "web"], 
+    "permalink": "http://code-maven.com/cmos-3-joel-berger-mojolicious",
+    "title" : "Joel Berger on Mojolicious",
+    "date": "2016-09-01"
   }
 ]
