@@ -27,12 +27,7 @@ def main():
             for g in e['guests'].keys():
                 if g not in people:
                     exit("ERROR: '{}' is not in the list of people".format(g))
-                    #people[g] = {
-                    #    'info': e['guests'][g],
-                    #    'episodes' : []
-                    #}
                 people[g]['episodes'].append(e)
-            #print(e)
         generate_pages(sources, people)
     else:
         parser.print_help()
@@ -44,8 +39,6 @@ def generate_pages(sources, people):
        os.mkdir('html/p/')
    people_list = []
    for p in people.keys():
-       #print(p)
-       #print(people[p])
        with open('html/p/' + p, 'w') as fh:
            fh.write(person_template.render(id = p, person = people[p]))
 
@@ -61,14 +54,12 @@ def read_people():
             this = {}
             nickname = os.path.basename(filename)
             nickname = nickname[0:-4]
-            #print(nickname)
             with open(filename) as fh:
                 for line in fh:
                     line = line.rstrip('\n')
                     if re.search(r'\A\s*\Z', line):
                         continue
                     k,v = re.split(r'\s*:\s*', line, maxsplit=1)
-                    #print(v)
                     this[k] = v
             people[nickname] = {
                 'info': this,
