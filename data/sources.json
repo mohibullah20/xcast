@@ -22,7 +22,10 @@
 	},
 	{
 		"name"   : "talkpython",
-		"url"    : "http://talkpython.fm/"
+		"title"  : "Talk Python to Me",
+		"url"    : "http://talkpython.fm/",
+		"feed"   : "https://talkpython.fm/episodes/rss",
+		"itunes" : "https://itunes.apple.com/us/podcast/talk-python-to-me-python-conversations/id979020229"
 	},
 	{
 		"name"   : "codenewbie",
@@ -34,17 +37,23 @@
 	{
 		"name"   : "pythonpodcast",
 		"title"  : "Podcast.__init__",
-		"url"    : "http://pythonpodcast.com/"
+		"url"    : "http://pythonpodcast.com/",
+		"feed"   : "http://podcastinit.podbean.com/feed/",
+		"itunes" : "https://itunes.apple.com/us/podcast/podcast.-init/id981834425"
 	},
 	{
 		"name"   : "software-engineering-daily",
 		"title"  : "Software Engineering Daily",
-		"url"    : "http://softwareengineeringdaily.com/2016/02/18/design-non-designers-tracy-osborn/",
+		"url"    : "http://softwareengineeringdaily.com/",
+		"feed"   : "http://softwareengineeringdaily.com/feed/podcast/",
+		"itunes" : "https://itunes.apple.com/us/podcast/software-engineering-daily/id1019576853",
 		"alter"  : "http://www.stitcher.com/podcast/software-engineering-daily/"
 	},
 	{
 		"name"    : "startupmadnessacademy",
 		"title"   : "Startup Madness Academy",
-		"url"     : "http://startupmadnessacademy.com/"
+		"url"     : "http://startupmadnessacademy.com/",
+		"feed"    : "http://startupmadnessacademy.com/feed/",
+		"itunes"  : "https://itunes.apple.com/us/podcast/startup-madness-podcast-making/id1054543151"
 	}
 ]
