@@ -16,8 +16,15 @@ or has an id there and has all the information in a separate file.
 
 /
 /p/person-code
+/s/source
 
-
+TODO:
+-----
+* For each source create a page listing the meta information and all the episodes we already have.
+* For each person list all the episodes where s/he is a guest and where s/he is a host.
+* Include talks from conferences
+* Include screencasts and other non-conference videos.
+* Include a picture of each person?
 
 SETUP
 ------
