@@ -69,23 +69,29 @@ def main():
 def read_people():
     people = {}
     for filename in glob.glob("data/people/*.txt"):
-        this = {}
-        nickname = os.path.basename(filename)
-        nickname = nickname[0:-4]
-        #print(nickname)
-        with open(filename) as fh:
-            for line in fh:
-                line = line.rstrip('\n')
-                k,v = re.split(r'\s*:\s*', line, maxsplit=1)
-                #print(v)
-                this[k] = v
-        people[nickname] = {
-            'info': this,
-            'episodes' : []
-        }
+        try:
+            this = {}
+            nickname = os.path.basename(filename)
+            nickname = nickname[0:-4]
+            #print(nickname)
+            with open(filename) as fh:
+                for line in fh:
+                    line = line.rstrip('\n')
+                    if re.search(r'\A\s*\Z', line):
+                        continue
+                    k,v = re.split(r'\s*:\s*', line, maxsplit=1)
+                    #print(v)
+                    this[k] = v
+            people[nickname] = {
+                'info': this,
+                'episodes' : []
+            }
+        except Exception as e:
+            print("ERROR: {} in file {}".format(e, filename))
 
     return people
 
 
 main()
 
+# vim: expandtab

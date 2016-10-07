@@ -36,6 +36,12 @@
 	{
 		"name"   : "software-engineering-daily",
 		"title"  : "Software Engineering Daily",
-		"url"    : "http://www.stitcher.com/podcast/software-engineering-daily/"
+		"url"    : "http://softwareengineeringdaily.com/2016/02/18/design-non-designers-tracy-osborn/",
+		"alter"  : "http://www.stitcher.com/podcast/software-engineering-daily/"
+	},
+	{
+		"name"    : "startupmadnessacademy",
+		"title"   : "Startup Madness Academy",
+		"url"     : "http://startupmadnessacademy.com/"
 	}
 ]
