@@ -5,8 +5,6 @@ import os
 import re
 from jinja2 import Environment, PackageLoader
 
-# TODO: fetch source and create the first n entries
-# TODO: generate html
 def main():
 
     with open('data/sources.json') as fh:
@@ -24,8 +22,6 @@ def main():
     elif args.html:
         episodes = read_episodes(sources)
         people = read_people()
-        #print(people)
-        #exit()
 
         for e in episodes:
             for g in e['guests'].keys():
@@ -37,23 +33,26 @@ def main():
                     #}
                 people[g]['episodes'].append(e)
             #print(e)
-
-        env = Environment(loader=PackageLoader('xcast', 'templates'))
-        person_template = env.get_template('person.html')
-        if not os.path.exists('html/p/'):
-            os.mkdir('html/p/')
-        people_list = []
-        for p in people.keys():
-            #print(p)
-            #print(people[p])
-            with open('html/p/' + p, 'w') as fh:
-                fh.write(person_template.render(id = p, person = people[p]))
-
-        main_template = env.get_template('index.html')
-        with open('html/index.html', 'w') as fh:
-            fh.write(main_template.render(sources = sources, people = people, people_ids = sorted(people.keys()) ))
+        generate_pages(sources, people)
     else:
         parser.print_help()
+
+def generate_pages(sources, people):
+   env = Environment(loader=PackageLoader('xcast', 'templates'))
+   person_template = env.get_template('person.html')
+   if not os.path.exists('html/p/'):
+       os.mkdir('html/p/')
+   people_list = []
+   for p in people.keys():
+       #print(p)
+       #print(people[p])
+       with open('html/p/' + p, 'w') as fh:
+           fh.write(person_template.render(id = p, person = people[p]))
+
+   main_template = env.get_template('index.html')
+   with open('html/index.html', 'w') as fh:
+       fh.write(main_template.render(sources = sources, people = people, people_ids = sorted(people.keys()) ))
+
 
 def read_people():
     people = {}
