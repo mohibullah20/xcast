@@ -22,21 +22,10 @@ def main():
         for s in sources:
             print('{:20} {}'.format(s.get('name', ''), s.get('title', '')))
     elif args.html:
-        episodes = []
+        episodes = read_episodes(sources)
         people = read_people()
         #print(people)
         #exit()
-        for s in sources:
-            print("Processing source {}".format(s['name']))
-            file = 'data/' + s['name'] + '.json'
-            if os.path.exists(file):
-                with open(file) as fh:
-                    try:
-                        episodes.extend(json.load(fh))
-                    except json.decoder.JSONDecodeError as e:
-                        print("ERROR: Could not read in {}".format(file))
-                        print(e)
-                        pass
 
         for e in episodes:
             for g in e['guests'].keys():
@@ -91,6 +80,20 @@ def read_people():
 
     return people
 
+def read_episodes(sources):
+    episodes = []
+    for s in sources:
+        print("Processing source {}".format(s['name']))
+        file = 'data/' + s['name'] + '.json'
+        if os.path.exists(file):
+            with open(file) as fh:
+                try:
+                    episodes.extend(json.load(fh))
+                except json.decoder.JSONDecodeError as e:
+                    print("ERROR: Could not read in {}".format(file))
+                    print(e)
+                    pass
+    return episodes
 
 main()
 
