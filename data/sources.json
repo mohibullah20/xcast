@@ -15,7 +15,10 @@
 	},
 	{
 		"name"   : "rfc",
-		"url"    : "https://changelog.com/rfc/"
+		"title"  : "Request For Commits",
+		"url"    : "https://changelog.com/rfc/",
+		"feed"   : "https://changelog.com/rfc/feed",
+		"itunes" : "https://itunes.apple.com/us/podcast/request-for-commits/id1141345001"
 	},
 	{
 		"name"   : "talkpython",

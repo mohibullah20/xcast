@@ -1,0 +1,17 @@
+[
+  {
+    "guests": {
+      "karl-fogel" : {}
+    },
+    "hosts" : {
+        "nadia-eghbal" : {},
+		"mikeal-rogers" : {}
+    },
+    "keywords": ["Open Source"],
+    "permalink": "https://changelog.com/rfc-1/",
+    "title" : "Karl Fogel – Open Source, Then and Now (Part 1)",
+    "date": "2016-08-04"
+  }
+]
+
+
