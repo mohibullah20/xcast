@@ -30,6 +30,10 @@ def main():
                 if g not in people:
                     exit("ERROR: '{}' is not in the list of people".format(g))
                 people[g]['episodes'].append(e)
+            for h in e['hosts'].keys():
+                if h not in people:
+                    exit("ERROR: '{}' is not in the list of people".format(h))
+                people[h]['hosting'].append(e)
         generate_pages(sources, people)
     else:
         parser.print_help()
@@ -77,7 +81,8 @@ def read_people():
                     this[k] = v
             people[nickname] = {
                 'info': this,
-                'episodes' : []
+                'episodes' : [],
+                'hosting' : []
             }
         except Exception as e:
             print("ERROR: {} in file {}".format(e, filename))
