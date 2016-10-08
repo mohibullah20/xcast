@@ -24,6 +24,8 @@ def main():
         people = read_people()
 
         for e in episodes:
+            #print(e)
+            #exit()
             for g in e['guests'].keys():
                 if g not in people:
                     exit("ERROR: '{}' is not in the list of people".format(g))
@@ -72,13 +74,16 @@ def read_people():
 
 def read_episodes(sources):
     episodes = []
-    for s in sources:
-        print("Processing source {}".format(s['name']))
-        file = 'data/' + s['name'] + '.json'
+    for src in sources:
+        print("Processing source {}".format(src['name']))
+        file = 'data/' + src['name'] + '.json'
         if os.path.exists(file):
             with open(file) as fh:
                 try:
-                    episodes.extend(json.load(fh))
+                    new_episodes = json.load(fh)
+                    for ep in new_episodes:
+                        ep['source'] = src['name']
+                    episodes.extend(new_episodes)
                 except json.decoder.JSONDecodeError as e:
                     print("ERROR: Could not read in {}".format(file))
                     print(e)

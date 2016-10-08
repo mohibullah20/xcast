@@ -3,7 +3,7 @@
     <div><a href="https://github.com/{{ person['info']['github'] }}">Github: {{ person['info']['github'] }}</div>
     <div><a href="https://twitter.com/{{ person['info']['twitter'] }}">Twitter: @{{ person['info']['twitter'] }}</div>
     {% for e in person['episodes'] %}
-        <li><a href="{{ e['permalink'] }}">{{ e['title'] }}</a> {{ e['date'] }}</li>
+        <li><a href="{{ e['permalink'] }}">{{ e['title'] }}</a> {{ e['date'] }} <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
     {% endfor %}
 
 {% include 'incl/footer.html' %}
