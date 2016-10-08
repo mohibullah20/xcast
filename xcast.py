@@ -35,18 +35,30 @@ def main():
         parser.print_help()
 
 def generate_pages(sources, people):
-   env = Environment(loader=PackageLoader('xcast', 'templates'))
-   person_template = env.get_template('person.html')
-   if not os.path.exists('html/p/'):
-       os.mkdir('html/p/')
-   people_list = []
-   for p in people.keys():
-       with open('html/p/' + p, 'w') as fh:
-           fh.write(person_template.render(id = p, person = people[p]))
+    env = Environment(loader=PackageLoader('xcast', 'templates'))
 
-   main_template = env.get_template('index.html')
-   with open('html/index.html', 'w') as fh:
-       fh.write(main_template.render(sources = sources, people = people, people_ids = sorted(people.keys()) ))
+    person_template = env.get_template('person.html')
+    if not os.path.exists('html/p/'):
+        os.mkdir('html/p/')
+    for p in people.keys():
+         with open('html/p/' + p, 'w') as fh:
+            fh.write(person_template.render(id = p, person = people[p]))
+
+    source_template = env.get_template('source.html')
+    if not os.path.exists('html/s/'):
+        os.mkdir('html/s/')
+    for s in sources:
+    #    #print(s)
+        with open('html/s/' + s['name'], 'w') as fh:
+            fh.write(source_template.render(source = s))
+
+
+    main_template = env.get_template('index.html')
+    with open('html/index.html', 'w') as fh:
+        fh.write(main_template.render(
+            sources = sources,
+            people = people,
+            people_ids = sorted(people.keys()) ))
 
 
 def read_people():

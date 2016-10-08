@@ -1,0 +1,12 @@
+{% include 'incl/header.html' %}
+    <h2><a href="{{ source['url'] }}">{{ source['title'] }}</a></h2>
+    <div><a href="{{ source['feed'] }}">feed</a></div>
+    <div><a href="{{ source['itunes'] }}">itunes</a></div>
+    {% for e in source['episodes'] %}
+        <li><a href="{{ e['permalink'] }}">{{ e['title'] }}</a> {{ e['date'] }} <a href="/s/{{ e['source'] }}">{{ e['source'] }}</a></li>
+    {% endfor %}
+
+{% include 'incl/footer.html' %}
+
+
+
