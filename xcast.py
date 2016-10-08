@@ -96,6 +96,7 @@ def read_episodes(sources):
                     for ep in new_episodes:
                         ep['source'] = src['name']
                     episodes.extend(new_episodes)
+                    src['episodes'] = new_episodes
                 except json.decoder.JSONDecodeError as e:
                     print("ERROR: Could not read in {}".format(file))
                     print(e)
