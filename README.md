@@ -21,7 +21,6 @@ Site layout
 
 TODO:
 -----
-* For each source create a page listing the meta information and all the episodes we already have.
 * For each person list all the episodes where s/he is a guest and where s/he is a host.
 * Include talks from conferences
 * Include screencasts and other non-conference videos.

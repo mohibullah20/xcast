@@ -1,5 +1,6 @@
 [
   {
+    "ep" : "1",
     "guests": {
       "carlos-lazo" : {}
     },
@@ -10,5 +11,19 @@
     "permalink": "http://www.codenewbie.org/podcast/ep-1-bootcamps-water-coolers-and-hiring-devs",
     "title" : "Bootcamps, Water Coolers, and Hiring Devs",
     "date": "2014-09-16"
+  },
+  {
+    "ep" : "57",
+    "guests": {
+      "adam-stacoviak" : {},
+      "jerod-santo" : {}
+    },
+    "hosts" : {
+        "saron-yitbarek" : {}
+    },
+    "keywords": ["Changelog"],
+    "permalink": "http://www.codenewbie.org/podcast/podcasting-with-changelog",
+    "title" : "Podcasting with Changelog",
+    "date": "2015-10-12"
   }
 ]
