@@ -34,5 +34,31 @@
     "permalink": "https://talkpython.fm/episodes/show/2/python-and-mongodb",
     "title" : "Python and MongoDB",
     "date": "2015-04-07"
+  },
+  {
+    "ep" : "3",
+    "guests": {
+      "chris-mcdonough" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Pyramid", "Python", "web"],
+    "permalink": "https://talkpython.fm/episodes/show/3/pyramid-web-framework",
+    "title" : "Pyramid Web Framework",
+    "date": "2015-04-16"
+  },
+  {
+    "ep" : "4",
+    "guests": {
+      "mahmoud-hashemi" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Bolton"],
+    "permalink": "https://talkpython.fm/episodes/show/4/enterprise-python-and-large-scale-projects",
+    "title" : "Enterprise Python and Large-Scale Projects",
+    "date": "2015-04-23"
   }
 ]
