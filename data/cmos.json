@@ -177,5 +177,18 @@
     "permalink": "http://code-maven.com/cmos-10-michael-kennedy",
     "title" : "Michael Kennedy - Talk Python To Me",
     "date": "2016-09-23"
+  },
+  {
+    "ep" : "11",
+    "guests": {
+      "mohammad-s-anwar" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "keywords": ["Perl", "CPAN", "Map::Tube::London", "Games::Domino", "Calendar::Bahai", "Calendar::Hijri"],
+    "permalink": "http://code-maven.com/cmos-11-mohammad-s-anwar",
+    "title" : "Mohammad S. Anwar - Contributing to CPAN every single day",
+    "date": "2016-09-26"
   }
 ]
