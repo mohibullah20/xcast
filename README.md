@@ -21,7 +21,9 @@ Site layout
 
 TODO:
 -----
-* For each person list all the episodes where s/he is a guest and where s/he is a host.
+* Include the episode number for each episode
+* Add the GtiHub/Twitter username of each person and the "home" page of each person.
+* For each source add a description.
 * Include talks from conferences
 * Include screencasts and other non-conference videos.
 * Include a picture of each person?
@@ -37,13 +39,6 @@ Development server
 python3 server.py
 
 http://localhost:8000/
-
-
-TODO
------
-Create small web server to handle the static files
-Generate files for each person
-List the people on the main page by name and link to their page
 
 
 Other sources we might add
