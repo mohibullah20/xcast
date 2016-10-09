@@ -8,6 +8,39 @@ The list of podcasts can be found in data/srouces.json and it needs a lot more i
 Each podcast has its own json file in the data/ directory in which we list the episodes.
 Each person (both guests and hosts) have their own file in the data/people/ directory.
 
+For each episode in a podcast series we collect:
+
+```
+  {
+    "ep" : "EPISODE NUMBER",       (was not included in every case, but should be added)
+    "guests": {
+      "guest-name" : {}
+    },
+    "hosts" : {
+        "host-name" : {}
+    },
+    "topics" : [                (has not been used in most cases, I am not sure if we need this)
+      {
+        "name": "TOPIC NAME",
+        "url": "http://..."
+      }
+    ],
+    "keywords": ["perl", "web", "dancer"],
+    "permalink": "URL of the HTML page of the specific episode",
+    "title" : "TITLE of the episodes",
+    "date": "2016-08-23"
+  },
+```
+
+
+For each person we collect:
+```
+name:      Full name
+twitter:   account ID
+github:    accoung ID
+home:      URL of their personal home page
+```
+
 Site layout
 ------------
 ```
@@ -19,7 +52,7 @@ Site layout
 TODO:
 -----
 * Include the episode number for each episode
-* Add the GtiHub/Twitter username of each person and the "home" page of each person.
+* Add the GitHub/Twitter username of each person and the "home" page of each person.
 * For each source add a description.
 * Include talks from conferences
 * Include screencasts and other non-conference videos.
