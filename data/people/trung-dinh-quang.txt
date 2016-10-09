@@ -1,0 +1,4 @@
+name: Trung Đinh Quang
+twitter: trungdq88
+github: trungdq88
+home: http://dinhquangtrung.net/

@@ -203,5 +203,18 @@
     "permalink": "http://code-maven.com/cmos-12-randal-schwartz",
     "title" : "Randal Schwartz the host of FLOSS Weekly",
     "date": "2016-09-28"
+  },
+  {
+    "ep" : "13",
+    "guests": {
+      "trung-dinh-quang" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "keywords": ["GitHub"],
+    "permalink": "http://code-maven.com/cmos-13-trung-dinh-quang",
+    "title" : "Trung Đinh Quang on GitHub Explorer - a progressive web app",
+    "date": "2016-10-03"
   }
 ]
