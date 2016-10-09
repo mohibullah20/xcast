@@ -1,0 +1,25 @@
+[
+  {
+    "ep" : "0",
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/0/introducing-the-show",
+    "title" : "Introducing the show!",
+    "date": "2015-03-21"
+  },
+  {
+    "ep" : "2",
+    "guests": {
+      "nicola-iarocci" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["EVE", "Flask", "Cerberus"],
+    "permalink": "https://talkpython.fm/episodes/show/1/eve-restful-apis-for-humans",
+    "title" : "EVE - RESTful APIs for humans",
+    "date": "2015-03-31"
+  }
+]

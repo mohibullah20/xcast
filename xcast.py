@@ -26,10 +26,11 @@ def main():
         for e in episodes:
             #print(e)
             #exit()
-            for g in e['guests'].keys():
-                if g not in people:
-                    exit("ERROR: '{}' is not in the list of people".format(g))
-                people[g]['episodes'].append(e)
+            if 'guests' in e:
+                for g in e['guests'].keys():
+                    if g not in people:
+                        exit("ERROR: '{}' is not in the list of people".format(g))
+                    people[g]['episodes'].append(e)
             for h in e['hosts'].keys():
                 if h not in people:
                     exit("ERROR: '{}' is not in the list of people".format(h))
