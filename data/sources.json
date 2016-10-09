@@ -62,5 +62,12 @@
 		"url"     : "http://giantrobots.fm/",
 		"feed"    : "https://simplecast.com/podcasts/271/rss",
 		"itunes"  : "https://itunes.apple.com/us/podcast/giant-robots-smashing-into/id535121941"
+	},
+	{
+		"name"    : "floss-weekly",
+		"title"   : "Floss Weekly",
+		"url"     : "https://twit.tv/shows/floss-weekly",
+		"feed"    : "http://feeds.twit.tv/floss.xml",
+		"itunes"  : "https://itunes.apple.com/us/podcast/floss-weekly-mp3/id140847216"
 	}
 ]

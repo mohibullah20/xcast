@@ -1,0 +1,16 @@
+[
+  {
+    "ep" : "406",
+    "guests": {
+        "ole-andre-vadla-ravnas" : {}
+    },
+    "hosts" : {
+        "randal-schwartz" : {},
+        "guillermo-amaral" : {}
+    },
+    "keywords": ["Frida"],
+    "permalink": "https://twit.tv/shows/floss-weekly/episodes/406",
+    "title" : "Frida",
+    "date": "2016-10-05"
+  }
+]
