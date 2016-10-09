@@ -190,5 +190,18 @@
     "permalink": "http://code-maven.com/cmos-11-mohammad-s-anwar",
     "title" : "Mohammad S. Anwar - Contributing to CPAN every single day",
     "date": "2016-09-26"
+  },
+  {
+    "ep" : "12",
+    "guests": {
+      "randal-schwartz" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "keywords": ["Perl", "CPAN", "FLOSS Weekly"],
+    "permalink": "http://code-maven.com/cmos-12-randal-schwartz",
+    "title" : "Randal Schwartz the host of FLOSS Weekly",
+    "date": "2016-09-28"
   }
 ]
