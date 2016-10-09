@@ -132,5 +132,24 @@
     "permalink": "http://code-maven.com/cmos-7-obinwanne-hill-restivejs",
     "title" : "Obinwanne Hill on RestiveJS",
     "date": "2016-09-17"
+  },
+  {
+    "ep" : "8",
+    "guests": {
+      "lynn-cyrin-conway" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "topics" : [
+      {
+        "name": "Bundler",
+        "url": "http://bundler.io/"
+      }
+    ],
+    "keywords": ["Bundler"], 
+    "permalink": "http://code-maven.com/cmos-8-lynn-cyrin-bundler-rubygems",
+    "title" : "Lynn 'Cyrin' Conway on Bundler, RubyGems and Ruby Together",
+    "date": "2016-09-19"
   }
 ]
