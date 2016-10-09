@@ -229,5 +229,18 @@
     "permalink": "http://code-maven.com/cmos-14-johnny-ray-austin",
     "title" : "Johnny Ray Austin - Mo - Django - VueJS",
     "date": "2016-10-06"
+  },
+  {
+    "ep" : "15",
+    "guests": {
+      "prosper-otemuyiwa" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "keywords": ["Laravel"],
+    "permalink": "http://code-maven.com/cmos-15-prosper-otemuyiwa",
+    "title" : "Prosper Otemuyiwa - Laravel",
+    "date": "2016-10-07"
   }
 ]
