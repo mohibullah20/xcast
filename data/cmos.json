@@ -113,5 +113,24 @@
     "permalink": "http://code-maven.com/cmos-6-tally-barak-graphql",
     "title" : "Tally Barak on GraphQL",
     "date": "2016-09-10"
+  },
+  {
+    "ep" : "7",
+    "guests": {
+      "obinwanne-hill" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "topics" : [
+      {
+        "name": "GraphQL",
+        "url": "http://graphql.org/"
+      }
+    ],
+    "keywords": ["Restive", "JQuery", "CSS", "JavaScript"], 
+    "permalink": "http://code-maven.com/cmos-7-obinwanne-hill-restivejs",
+    "title" : "Obinwanne Hill on RestiveJS",
+    "date": "2016-09-17"
   }
 ]
