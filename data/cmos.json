@@ -160,9 +160,22 @@
     "hosts" : {
         "gabor-szabo" : {}
     },
-    "keywords": ["CSS"], 
+    "keywords": ["CSS", "Formhack", "Khaled Bot", "Can I User Embed"], 
     "permalink": "http://code-maven.com/cmos-9-ire-aderinokun",
     "title" : "Ire Aderinokun - Khaled Bot, Can I Use Embed, Formhack",
     "date": "2016-09-21"
+  },
+  {
+    "ep" : "10",
+    "guests": {
+      "michael-kennedy" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "keywords": ["Python", "Scrapy", "passlib", "hypothesis", "pyjion"],
+    "permalink": "http://code-maven.com/cmos-10-michael-kennedy",
+    "title" : "Michael Kennedy - Talk Python To Me",
+    "date": "2016-09-23"
   }
 ]
