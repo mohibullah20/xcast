@@ -151,5 +151,18 @@
     "permalink": "http://code-maven.com/cmos-8-lynn-cyrin-bundler-rubygems",
     "title" : "Lynn 'Cyrin' Conway on Bundler, RubyGems and Ruby Together",
     "date": "2016-09-19"
+  },
+  {
+    "ep" : "9",
+    "guests": {
+      "ire-aderinokun" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "keywords": ["CSS"], 
+    "permalink": "http://code-maven.com/cmos-9-ire-aderinokun",
+    "title" : "Ire Aderinokun - Khaled Bot, Can I Use Embed, Formhack",
+    "date": "2016-09-21"
   }
 ]
