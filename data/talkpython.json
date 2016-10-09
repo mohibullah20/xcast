@@ -10,7 +10,7 @@
     "date": "2015-03-21"
   },
   {
-    "ep" : "2",
+    "ep" : "1",
     "guests": {
       "nicola-iarocci" : {}
     },
@@ -21,5 +21,18 @@
     "permalink": "https://talkpython.fm/episodes/show/1/eve-restful-apis-for-humans",
     "title" : "EVE - RESTful APIs for humans",
     "date": "2015-03-31"
+  },
+  {
+    "ep" : "2",
+    "guests": {
+      "a-jesse-jiryu-davis" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["PyMongo", "MongoDB", "Motor", "Toro"],
+    "permalink": "https://talkpython.fm/episodes/show/2/python-and-mongodb",
+    "title" : "Python and MongoDB",
+    "date": "2015-04-07"
   }
 ]
