@@ -44,3 +44,10 @@ TODO
 Create small web server to handle the static files
 Generate files for each person
 List the people on the main page by name and link to their page
+
+
+Other sources we might add
+----------------------------
+http://www.meta-cast.com/
+http://www.angryweasel.com/ABTesting/
+
