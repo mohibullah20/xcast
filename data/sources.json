@@ -55,5 +55,12 @@
 		"url"     : "http://startupmadnessacademy.com/",
 		"feed"    : "http://startupmadnessacademy.com/feed/",
 		"itunes"  : "https://itunes.apple.com/us/podcast/startup-madness-podcast-making/id1054543151"
+	},
+	{
+		"name"    : "giantrobots",
+		"title"   : "Giant Robots smashing Into Other Giant Robots",
+		"url"     : "http://giantrobots.fm/",
+		"feed"    : "https://simplecast.com/podcasts/271/rss",
+		"itunes"  : "https://itunes.apple.com/us/podcast/giant-robots-smashing-into/id535121941"
 	}
 ]
