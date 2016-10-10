@@ -80,6 +80,9 @@ def read_people():
                         continue
                     k,v = re.split(r'\s*:\s*', line, maxsplit=1)
                     this[k] = v
+            for field in ['twitter', 'github', 'home']:
+                if field not in this:
+                    warn("{} missing for {}".format(field, nickname))
             people[nickname] = {
                 'info': this,
                 'episodes' : [],
@@ -99,8 +102,10 @@ def read_episodes(sources):
             with open(file) as fh:
                 try:
                     new_episodes = json.load(fh)
-                    for ep in new_episodes:
-                        ep['source'] = src['name']
+                    for episode in new_episodes:
+                        episode['source'] = src['name']
+                        if 'ep' not in episode:
+                            warn("ep missing from {} episode {}".format(src['name'], episode['permalink']))
                     episodes.extend(new_episodes)
                     src['episodes'] = new_episodes
                 except json.decoder.JSONDecodeError as e:
@@ -108,6 +113,10 @@ def read_episodes(sources):
                     print(e)
                     pass
     return episodes
+
+def warn(msg):
+    pass
+    #print("WARN ", msg)
 
 main()
 
