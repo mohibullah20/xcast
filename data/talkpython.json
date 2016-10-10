@@ -138,5 +138,57 @@
     "permalink": "https://talkpython.fm/episodes/show/10/bringing-python-to-the-masses-with-hosting-and-devops-at-pythonanywhere",
     "title" : "Bringing Python to the Masses with Hosting and DevOps at PythonAnywhere",
     "date": "2015-06-02"
+  },
+  {
+    "ep" : "11",
+    "guests": {
+         "adrian-rosebrock" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PyImageSearch", "OpenCV"],
+    "permalink": "https://talkpython.fm/episodes/show/11/pyimagesearch-and-computer-vision",
+    "title" : "PyImageSearch and Computer Vision",
+    "date": "2015-06-09"
+  },
+  {
+    "ep" : "12",
+    "guests": {
+         "david-beazley" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/12/deep-dive-into-modules-and-packages",
+    "title" : "Deep Dive into Modules and Packages",
+    "date": "2015-06-16"
+  },
+  {
+    "ep" : "13",
+    "guests": {
+         "armin-ronacher" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Flask", "Pyramid"],
+    "permalink": "https://talkpython.fm/episodes/show/13/flask-web-framework-and-much-much-more",
+    "title" : "Flask web framework and much, much more",
+    "date": "2015-06-23"
+  },
+  {
+    "ep" : "14",
+    "guests": {
+         "albert-sheu" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PHP", "Patreon"],
+    "permalink": "https://talkpython.fm/episodes/show/14/moving-from-php-to-python-3-with-patreon",
+    "title" : "Moving from PHP to Python 3 with Patreon",
+    "date": "2015-06-30"
   }
 ]
