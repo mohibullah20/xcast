@@ -69,5 +69,12 @@
 		"url"     : "https://twit.tv/shows/floss-weekly",
 		"feed"    : "http://feeds.twit.tv/floss.xml",
 		"itunes"  : "https://itunes.apple.com/us/podcast/floss-weekly-mp3/id140847216"
+	},
+	{
+		"name"    : "developeronfire",
+		"title"   : "Developer On Fire",
+		"url"     : "http://developeronfire.com/",
+		"feed"    : "http://developeronfire.com/rss.xml",
+		"itunes"  : "https://itunes.apple.com/il/podcast/developer-on-fire/id1006105326"
 	}
 ]
