@@ -190,5 +190,96 @@
     "permalink": "https://talkpython.fm/episodes/show/14/moving-from-php-to-python-3-with-patreon",
     "title" : "Moving from PHP to Python 3 with Patreon",
     "date": "2015-06-30"
+  },
+  {
+    "ep" : "15",
+    "guests": {
+         "lynn-root" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Spotify", "PyLadies"],
+    "permalink": "https://talkpython.fm/episodes/show/15/python-at-spotify-psf-and-pyladies",
+    "title" : "Python at Spotify, PSF, and PyLadies",
+    "date": "2015-07-07"
+  },
+  {
+    "ep" : "16",
+    "guests": {
+         "roy-rapoport" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Netflix"],
+    "permalink": "https://talkpython.fm/episodes/show/16/python-at-netflix",
+    "title" : "Python at Netflix",
+    "date": "2015-07-14"
+  },
+  {
+    "ep" : "17",
+    "guests": {
+         "damien-george" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "MicroPython", "PyStone"],
+    "permalink": "https://talkpython.fm/episodes/show/17/python-on-bare-metal-with-micropython",
+    "title" : "Python on bare metal with MicroPython",
+    "date": "2015-07-21"
+  },
+  {
+    "ep" : "18",
+    "guests": {
+         "andreas-dewes" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/18/python-anti-patterns-and-other-mistakes",
+    "title" : "Python Anti-patterns and other mistakes",
+    "date": "2015-07-28"
+  },
+  {
+    "ep" : "19",
+    "guests": {
+         "al-sweigart" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/19/automate-the-boring-stuff-with-python",
+    "title" : "Automate the Boring Stuff with Python",
+    "date": "2015-08-04"
+  },
+  {
+    "ep" : "20",
+    "guests": {
+         "brad-miller" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/20/interactive-python-and-teaching-python-beyond-text-books",
+    "title" : "Interactive Python and Teaching Python: Beyond Text Books",
+    "date": "2015-08-11"
+  },
+  {
+    "ep" : "21",
+    "guests": {
+         "maciej-fijalkowski" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PyPy", "Cache Tier"],
+    "permalink": "https://talkpython.fm/episodes/show/21/pypy-the-jit-compiled-python-implementation",
+    "title" : "PyPy - The JIT Compiled Python Implementation",
+    "date": "2015-08-18"
   }
 ]
