@@ -281,5 +281,122 @@
     "permalink": "https://talkpython.fm/episodes/show/21/pypy-the-jit-compiled-python-implementation",
     "title" : "PyPy - The JIT Compiled Python Implementation",
     "date": "2015-08-18"
+  },
+  {
+    "ep" : "22",
+    "guests": {
+         "philip-guo" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python","Codewalk", "CPython"],
+    "permalink": "https://talkpython.fm/episodes/show/22/cpython-internals-and-learning-python-with-pythontutor.com",
+    "title" : "CPython Internals and Learning Python with pythontutor.com",
+    "date": "2015-08-25"
+  },
+  {
+    "ep" : "23",
+    "guests": {
+         "eli-ribble" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Authentise", "Rumps"],
+    "permalink": "https://talkpython.fm/episodes/show/23/3d-printing-with-python-at-authentise",
+    "title" : "3D Printing with Python at Authentise",
+    "date": "2015-09-01"
+  },
+  {
+    "ep" : "24",
+    "guests": {
+         "luciano-ramalho" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/24/fluent-python",
+    "title" : "Fluent Python",
+    "date": "2015-09-08"
+  },
+  {
+    "ep" : "25",
+    "guests": {
+         "brett-slatkin" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/25/effective-python",
+    "title" : "Effective Python",
+    "date": "2015-09-15"
+  },
+  {
+    "ep" : "26",
+    "guests": {
+         "matthew-makai" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/26/deploying-python-web-applications-updated",
+    "title" : "Deploying Python Web Applications (Updated)",
+    "date": "2015-09-22"
+  },
+  {
+    "ep" : "27",
+    "guests": {
+         "laura-blankenship" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/27/four-years-of-python-for-high-schoolers",
+    "title" : "Four Years of Python for High Schoolers",
+    "date": "2015-09-29"
+  },
+  {
+    "ep" : "28",
+    "guests": {
+         "davis-silverman" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "HumanGeo", "PyCharm", "PyCallGraph"],
+    "permalink": "https://talkpython.fm/episodes/show/28/making-python-fast-profiling-python-code",
+    "title" : "Making Python Fast: Profiling Python Code",
+    "date": "2015-10-06"
+  },
+  {
+    "ep" : "29",
+    "guests": {
+         "kyle-cranmer" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/29/python-at-the-large-hadron-collider-and-cern",
+    "title" : "Python at the Large Hadron Collider and CERN",
+    "date": "2015-10-13"
+  },
+  {
+    "ep" : "30",
+    "guests": {
+         "jessica-mckellar" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Dropbox"],
+    "permalink": "https://talkpython.fm/episodes/show/30/python-community-and-python-at-dropbox",
+    "title" : "Python Community and Python at Dropbox",
+    "date": "2015-10-20"
   }
 ]
