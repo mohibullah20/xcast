@@ -99,5 +99,44 @@
     "permalink": "https://talkpython.fm/episodes/show/7/robot-operating-system-ros-and-rospy",
     "title" : "Robot Operating System (ROS) and ROSPy",
     "date": "2015-05-12"
+  },
+  {
+    "ep" : "8",
+    "guests": {
+         "james-curran" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Grok"],
+    "permalink": "https://talkpython.fm/episodes/show/8/teaching-python-at-grok-learning-and-classrooms",
+    "title" : "Teaching Python at Grok Learning and Classrooms",
+    "date": "2015-05-19"
+  },
+  {
+    "ep" : "9",
+    "guests": {
+         "patrick-chanezon" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Docker", "Kitematic", "Flocker"],
+    "permalink": "https://talkpython.fm/episodes/show/9/docker-for-the-python-developer",
+    "title" : "Docker for the Python Developer",
+    "date": "2015-05-26"
+  },
+  {
+    "ep" : "10",
+    "guests": {
+         "harry-percival" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PiybS", "PythonAnywhere"],
+    "permalink": "https://talkpython.fm/episodes/show/10/bringing-python-to-the-masses-with-hosting-and-devops-at-pythonanywhere",
+    "title" : "Bringing Python to the Masses with Hosting and DevOps at PythonAnywhere",
+    "date": "2015-06-02"
   }
 ]
