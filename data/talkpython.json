@@ -60,5 +60,44 @@
     "permalink": "https://talkpython.fm/episodes/show/4/enterprise-python-and-large-scale-projects",
     "title" : "Enterprise Python and Large-Scale Projects",
     "date": "2015-04-23"
+  },
+  {
+    "ep" : "5",
+    "guests": {
+         "mike-bayer" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "SQLAlchemy", "ORM"],
+    "permalink": "https://talkpython.fm/episodes/show/5/sqlalchemy-and-data-access-in-python",
+    "title" : "SQLAlchemy and data access in Python",
+    "date": "2015-04-28"
+  },
+  {
+    "ep" : "6",
+    "guests": {
+         "kenneth-reitz" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PyCon"],
+    "permalink": "https://talkpython.fm/episodes/show/6/requests-pycon-and-python-s-future",
+    "title" : "Requests, PyCon, and Python's future",
+    "date": "2015-05-05"
+  },
+  {
+    "ep" : "7",
+    "guests": {
+         "dirk-thomas" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "ROS", "Robot Operating System"],
+    "permalink": "https://talkpython.fm/episodes/show/7/robot-operating-system-ros-and-rospy",
+    "title" : "Robot Operating System (ROS) and ROSPy",
+    "date": "2015-05-12"
   }
 ]
