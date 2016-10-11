@@ -1,4 +1,4 @@
 name: Nadia Eghbal
 twitter: nayafia
-gitHub: nayafia
+github: nayafia
 home: http://helloimnadia.com/
