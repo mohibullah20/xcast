@@ -3,6 +3,7 @@ import glob
 import json
 import os
 import re
+import csv
 from jinja2 import Environment, PackageLoader
 
 def main():
@@ -22,10 +23,20 @@ def main():
     elif args.html:
         episodes = read_episodes(sources)
         people = read_people()
+        tags = read_tags()
 
         for e in episodes:
             #print(e)
             #exit()
+            if 'tags' in e:
+                for tag in e['tags']:
+                    path = tag2path(tag)
+                    if path in tags:
+                        tags[path]['episodes'].append(e)
+                    else:
+                        pass
+                        # TODO report tag missing from the tags.csv file
+
             if 'guests' in e:
                 for g in e['guests'].keys():
                     if g not in people:
@@ -113,6 +124,19 @@ def read_episodes(sources):
                     print(e)
                     pass
     return episodes
+
+def tag2path(tag):
+    return re.sub(r'\s+', '-', tag.lower())
+
+def read_tags():
+    tags = {}
+    with open('data/tags.csv') as fh:
+        rd = csv.DictReader(fh, delimiter=';') 
+        for row in rd:
+            row['path'] = tag2path(row['tag'])
+            row['episodes'] = []
+            tags[ row['path'] ] = row
+    return tags
 
 def warn(msg):
     pass
