@@ -398,5 +398,70 @@
     "permalink": "https://talkpython.fm/episodes/show/30/python-community-and-python-at-dropbox",
     "title" : "Python Community and Python at Dropbox",
     "date": "2015-10-20"
+  },
+  {
+    "ep" : "31",
+    "guests": {
+         "alexandre-gramfort" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "scikit-learn"],
+    "permalink": "https://talkpython.fm/episodes/show/31/machine-learning-with-python-and-scikit-learn",
+    "title" : "Machine Learning with Python and scikit-learn",
+    "date": "2015-10-27"
+  },
+  {
+    "ep" : "32",
+    "guests": {
+         "ryan-kelly" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PyPy"],
+    "permalink": "https://talkpython.fm/episodes/show/32/pypy.js-pypy-python-in-your-browser",
+    "title" : "PyPy.js - PyPy Python in Your Browser",
+    "date": "2015-11-03"
+  },
+  {
+    "ep" : "33",
+    "guests": {
+         "flavio-percoco" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Openstack"],
+    "permalink": "https://talkpython.fm/episodes/show/33/openstack-cloud-computing-built-on-python",
+    "title" : "OpenStack: Cloud computing built on Python",
+    "date": "2015-11-10"
+  },
+  {
+    "ep" : "34",
+    "guests": {
+         "travis-oliphant" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Continuum", "Anaconda"],
+    "permalink": "https://talkpython.fm/episodes/show/34/continuum-scientific-python-and-the-business-of-open-source",
+    "title" : "Continuum: Scientific Python and The Business of Open Source",
+    "date": "2015-11-17"
+  },
+  {
+    "ep" : "35",
+    "guests": {
+         "alessandro-molina" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "TurboGears", "Depot"],
+    "permalink": "https://talkpython.fm/episodes/show/35/turbogears-and-the-future-of-python-web-frameworks",
+    "title" : "Turbogears and the future of Python web frameworks",
+    "date": "2015-11-24"
   }
 ]
