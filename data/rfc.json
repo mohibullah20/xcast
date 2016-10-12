@@ -14,7 +14,7 @@
     "date": "2016-08-04"
   },
   {
-    "ep" : "rfc-2",
+    "ep" : "2",
     "guests": {
       "karl-fogel" : {}
     },
@@ -28,7 +28,7 @@
     "date": "2016-08-04"
   },
   {
-    "ep" : "rfc-3",
+    "ep" : "3",
     "guests": {
       "andrew-nesbitt" : {},
       "arfon-smith" : {}    
@@ -37,13 +37,13 @@
         "nadia-eghbal" : {},
 	"mikeal-rogers" : {}
     },
-    "keywords": ["open-source"], ["github"]
+    "keywords": ["open-source", "github"],
     "permalink": "https://changelog.com/rfc-3/",
     "title" : "Measuring Success in Open Source",
     "date": "2016-08-03"
   },
   {
-    "ep" : "rfc-4",
+    "ep" : "4",
     "guests": {
       "jan-lehnardt" : {}
     },
@@ -51,13 +51,13 @@
         "nadia-eghbal" : {},
 	"mikeal-rogers" : {}
     },
-    "keywords": ["community"], ["contributing"],
+    "keywords": ["community", "contributing"],
     "permalink": "https://changelog.com/rfc-4/",
     "title" : "Building Healthy Communities",
     "date": "2016-08-18"
   },
   {
-    "ep" : "rfc-5",
+    "ep" : "5",
     "guests": {
       "eric-holscher" : {}
     },
@@ -65,13 +65,13 @@
         "nadia-eghbal" : {},
 	"mikeal-rogers" : {}
     },
-    "keywords": ["community"], ["contributing"],
+    "keywords": ["community", "contributing"],
     "permalink": "https://changelog.com/rfc-5/",
     "title" : "Documentation and the Value of Non-Code Contributions",
     "date": "2016-08-25"
   },
   {
-    "ep" : "rfc-6",
+    "ep" : "6",
     "guests": {
       "max-ogden" : {}
     },
@@ -85,7 +85,7 @@
     "date": "2016-09-01"
   },
   {
-    "ep" : "rfc-7",
+    "ep" : "7",
     "guests": {
       "rod-vagg" : {}
     },
