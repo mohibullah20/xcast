@@ -4,27 +4,21 @@ of Open Source projects and Technology in general.
 
 Collecting information from several podcasts.
 
-The list of podcasts can be found in data/srouces.json and it needs a lot more items.
-Each podcast has its own json file in the data/ directory in which we list the episodes.
-Each person (both guests and hosts) have their own file in the data/people/ directory.
+The list of podcasts can be found in ```data/sources.json``` and it needs a lot more items.
+Each podcast has its own json file in the ```data/``` directory in which we list the episodes.
+Each person (both guests and hosts) have their own file in the ```data/people/``` directory.
 
 For each episode in a podcast series we collect:
 
 ```
   {
-    "ep" : "EPISODE NUMBER",       (was not included in every case, but should be added)
+    "ep" : "EPISODE NUMBER",
     "guests": {
       "guest-name" : {}
     },
     "hosts" : {
         "host-name" : {}
     },
-    "topics" : [                (has not been used in most cases, I am not sure if we need this)
-      {
-        "name": "TOPIC NAME",
-        "url": "http://..."
-      }
-    ],
     "keywords": ["perl", "web", "dancer"],
     "permalink": "URL of the HTML page of the specific episode",
     "title" : "TITLE of the episodes",
@@ -39,6 +33,13 @@ name:      Full name
 twitter:   account ID
 github:    accoung ID
 home:      URL of their personal home page
+```
+
+The ```data/tags.csv``` file contains a mapping of keywords to URLs and descriptions.
+It is still under 'desig'.
+
+```
+keyword;http://...
 ```
 
 Site layout
