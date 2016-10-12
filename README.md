@@ -1,14 +1,24 @@
+The data in this repository is presented at http://xcast.szabgab.com/
+
 Collecting information about interviews and presentations
 of Open Source projects and Technology in general.
 
 
-Collecting information from several podcasts.
-
-The list of podcasts can be found in ```data/sources.json``` and it needs a lot more items.
+The list of podcasts can be found in ```data/sources.json```.
 Each podcast has its own json file in the ```data/``` directory in which we list the episodes.
-Each person (both guests and hosts) have their own file in the ```data/people/``` directory.
+The name of the podcast is the name of the appropriate JSON file.
 
-For each episode in a podcast series we collect:
+For each episode in a podcast series we collect the following fields:
+
+ep - the episode number
+guests:   a list of the guest, each guest is represented her/his name in full-name  format.
+    The same value, followed by the .txt extension is used to hold information about that person
+    in the ```data/people/``` directory.
+hosts:   a list of the hosts. Just like the list of the guest.
+keywords: a list of words (e.g. project names) that are important in the episode.
+permalink: the URL of the episode.
+title:     the title of the episode.
+date:      The date of the episode.
 
 ```
   {
@@ -26,8 +36,11 @@ For each episode in a podcast series we collect:
   },
 ```
 
+Each person (both guests and hosts) have their own file in the ```data/people/``` directory.
+These are text files in "field:value" format.
 
-For each person we collect:
+For each person we collect the following 4 fields, but some people might not have all 4:
+
 ```
 name:      Full name
 twitter:   account ID
@@ -36,11 +49,22 @@ home:      URL of their personal home page
 ```
 
 The ```data/tags.csv``` file contains a mapping of keywords to URLs and descriptions.
-It is still under 'desig'.
+It is still under 'design'.
 
 ```
 keyword;http://...
 ```
+
+Collection Process
+-------------------
+* Select the podcast you'd like to process.
+* Visit the main web-site of the process.
+* Find the next the first episode that has not been recorded in our files.
+* Find out the details need to be collected.
+* Save the data.
+* If you have a local copy of all the files, you can veryfy the correctness of the format by running ```python3 xcast.py --html```
+
+
 
 Site layout
 ------------
