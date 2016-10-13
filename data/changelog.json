@@ -13,6 +13,47 @@
     "permalink": "https://changelog.com/1/",
     "title" : "Haml Sass and Compass ",
     "date": "2009-11-22"
+  },
+  {
+      "ep" : "2",
+      "guests": {
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["JAMMIT", "underscore", "Firefox", "Chrome"],
+      "permalink": "https://changelog.com/2/",
+      "title" : "The Original Changelog Weekly",
+      "date": "2009-11-25"
+  },
+  {
+      "ep" : "3",
+      "guests": {
+        "rob-pike" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Google Go"],
+      "permalink": "https://changelog.com/3/",
+      "title" : "The Go Programming Language from Google with Rob Pike",
+      "date": "2009-11-27"
+  },
+  {
+      "ep" : "4",
+      "guests": {
+        "rob-pike" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Chrome", "Thor-Git", "Node", "WebROaR"],
+      "permalink": "https://changelog.com/4/",
+      "title" : "Chrome OS, Thor and ROaR",
+      "date": "2009-12-01"
   }
 ]
 
