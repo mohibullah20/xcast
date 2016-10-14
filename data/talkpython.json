@@ -463,5 +463,93 @@
     "permalink": "https://talkpython.fm/episodes/show/35/turbogears-and-the-future-of-python-web-frameworks",
     "title" : "Turbogears and the future of Python web frameworks",
     "date": "2015-11-24"
+  },
+  {
+    "ep" : "36",
+    "guests": {
+         "dmitry-trofimov" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PyCharm", "JetBrains"],
+    "permalink": "https://talkpython.fm/episodes/show/36/python-ides-with-the-pycharm-team",
+    "title" : "Python IDEs with the PyCharm team",
+    "date": "2015-12-01"
+  },
+  {
+    "ep" : "37",
+    "guests": {
+         "justin-seitz" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "OWASP"],
+    "permalink": "https://talkpython.fm/episodes/show/37/python-cybersecurity-and-penetration-testing",
+    "title" : "Python Cybersecurity and Penetration Testing",
+    "date": "2015-12-08"
+  },
+  {
+    "ep" : "38",
+    "guests": {
+         "florian-motlik" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Codeship", "Docker"],
+    "permalink": "https://talkpython.fm/episodes/show/38/continuous-integration-and-delivery-at-codeship",
+    "title" : "Continuous Integration and Delivery at Codeship",
+    "date": "2015-12-15"
+  },
+  {
+    "ep" : "39",
+    "guests": {
+         "jess-unrein" : {},
+         "eric-chou" : {},
+         "helio-correia" : {},
+         "jonathan-sundqvist" : {},
+         "matt-yancey" : {},
+         "justin-beall" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/39/getting-your-first-dev-job-as-a-python-developer-part-1",
+    "title" : "Getting your first dev job as a Python developer (part 1)",
+    "date": "2015-12-22"
+  },
+  {
+    "ep" : "40",
+    "guests": {
+         "jonathon-morgan" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/40/top-10-data-science-stories-from-2015",
+    "title" : "Top 10 Data Science Stories from 2015",
+    "date": "2015-12-29"
+  },
+  {
+    "ep" : "41",
+    "guests": {
+         "roy-rapoport" : {},
+         "mahmoud-hashemi" : {},
+         "adylzhan-khashtamov" : {},
+         "greg-langston" : {},
+         "lorena-mesa" : {},
+         "shawn-milochik" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"],
+    "permalink": "https://talkpython.fm/episodes/show/41/getting-your-first-dev-job-as-a-python-developer-part-2",
+    "title" : "Getting your first dev job as a Python developer (part 2)",
+    "date": "2016-01-12"
   }
 ]
