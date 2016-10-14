@@ -83,7 +83,7 @@ TODO:
 * Include screencasts and other non-conference videos.
 * Include a picture of each person?
 * The Floss Weekly had a lot of other "providers" to subscribe through. Check those out.
-* The Floss Weekly has both an audio and vidoe feed. Some other podcast might have too. Shall we include those too?
+* The Floss Weekly has both an audio and video feed. Some other podcast might have too. Shall we include those too?
 * TODO add icons for RSS feed and iTunes subscribe button
 * Add Forkme on GitHub badge
 

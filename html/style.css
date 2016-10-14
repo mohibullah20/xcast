@@ -1,2 +1,19 @@
 * {
+    background: #FFF;
+}
+
+.itunes {
+    background: #75C8FF;
+    color: #FFF;
+    font-weight: 500;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
+}
+
+.rss {
+    background: #ffb415;
+    color: #FFF;
+    font-weight: 500;
+    padding: 3px 10px 3px 10px;
+    text-decoration: none;
 }
