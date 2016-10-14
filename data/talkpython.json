@@ -551,5 +551,136 @@
     "permalink": "https://talkpython.fm/episodes/show/41/getting-your-first-dev-job-as-a-python-developer-part-2",
     "title" : "Getting your first dev job as a Python developer (part 2)",
     "date": "2016-01-12"
+  },
+  {
+    "ep" : "42",
+    "guests": {
+         "leah-culver" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Grove"],
+    "permalink": "https://talkpython.fm/episodes/show/42/python-in-startups-and-investing",
+    "title" : "Python in Startups and Investing",
+    "date": "2016-01-19"
+  },
+  {
+    "ep" : "43",
+    "guests": {
+         "ron-cohen" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Opbeat", "docpot"],
+    "permalink": "https://talkpython.fm/episodes/show/43/monitoring-high-performance-python-apps-at-opbeat",
+    "title" : "Monitoring high performance Python apps at Opbeat",
+    "date": "2016-01-26"
+  },
+  {
+    "ep" : "44",
+    "guests": {
+         "min-rk" : {},
+         "matthias-bussonnier" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Jupyter", "IPython"],
+    "permalink": "https://talkpython.fm/episodes/show/44/project-jupyter-and-ipython",
+    "title" : "Project Jupyter and IPython",
+    "date": "2016-02-02"
+  },
+  {
+    "ep" : "45",
+    "guests": {
+         "brian-okken" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "testing"],
+    "permalink": "https://talkpython.fm/episodes/show/45/the-python-testing-column-now-a-thing",
+    "title" : "The Python Testing Column, Now a Thing",
+    "date": "2016-02-09"
+  },
+  {
+    "ep" : "46",
+    "guests": {
+         "robert-blau" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "IronPython", "Pyjion"],
+    "permalink": "https://talkpython.fm/episodes/show/46/python-in-movies-and-entertainment",
+    "title" : "Python in Movies and Entertainment",
+    "date": "2016-02-16"
+  },
+  {
+    "ep" : "47",
+    "guests": {
+         "just-van-rossum" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Drawbot"],
+    "permalink": "https://talkpython.fm/episodes/show/47/python-in-typeface-and-font-development",
+    "title" : "Python in Typeface and Font Development",
+    "date": "2016-02-23"
+  },
+  {
+    "ep" : "48",
+    "guests": {
+         "miguel-grinberg" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Flask", "web"],
+    "permalink": "https://talkpython.fm/episodes/show/48/building-flask-based-web-apps",
+    "title" : "Building Flask-based Web Apps",
+    "date": "2016-03-01"
+  },
+  {
+    "ep" : "49",
+    "guests": {
+         "brett-cannon" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Pyjion", "JIT"],
+    "permalink": "https://talkpython.fm/episodes/show/49/microsoft-s-jit-based-python-project-pyjion",
+    "title" : "Microsoft's JIT-based Python Project: Pyjion",
+    "date": "2016-03-08"
+  },
+  {
+    "ep" : "50",
+    "guests": {
+         "pablo-hoffman" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "Scrapy"],
+    "permalink": "https://talkpython.fm/episodes/show/50/web-scraping-at-scale-with-scrapy-and-scrapinghub",
+    "title" : "Web scraping at scale with Scrapy and ScrapingHub",
+    "date": "2016-03-15"
+  },
+  {
+    "ep" : "51",
+    "guests": {
+         "patrick-hayes" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "SigOpt"],
+    "permalink": "https://talkpython.fm/episodes/show/51/sigopt-optimizing-everything-with-python",
+    "title" : "SigOpt: Optimizing Everything with Python",
+    "date": "2016-03-21"
   }
 ]
