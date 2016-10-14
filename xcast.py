@@ -31,11 +31,12 @@ def main():
             if 'tags' in e:
                 for tag in e['tags']:
                     path = tag2path(tag)
-                    if path in tags:
-                        tags[path]['episodes'].append(e)
-                    else:
-                        pass
+                    if path not in tags:
                         # TODO report tag missing from the tags.csv file
+                        tags[path] = {}
+                        tags[path]['tag'] = tag
+                        tags[path]['episodes'] = []
+                    tags[path]['episodes'].append(e)
 
             if 'guests' in e:
                 for g in e['guests'].keys():
@@ -46,11 +47,11 @@ def main():
                 if h not in people:
                     exit("ERROR: '{}' is not in the list of people".format(h))
                 people[h]['hosting'].append(e)
-        generate_pages(sources, people)
+        generate_pages(sources, people, tags)
     else:
         parser.print_help()
 
-def generate_pages(sources, people):
+def generate_pages(sources, people, tags):
     env = Environment(loader=PackageLoader('xcast', 'templates'))
 
     person_template = env.get_template('person.html')
@@ -68,10 +69,19 @@ def generate_pages(sources, people):
         with open('html/s/' + s['name'], 'w') as fh:
             fh.write(source_template.render(source = s))
 
+    tag_template = env.get_template('tag.html')
+    if not os.path.exists('html/t/'):
+        os.mkdir('html/t/')
+    for t in tags:
+        with open('html/t/' + t, 'w') as fh:
+            #tags[t]['path'] = t
+            fh.write(tag_template.render(tag = tags[t]))
+
 
     main_template = env.get_template('index.html')
     with open('html/index.html', 'w') as fh:
         fh.write(main_template.render(
+            tags    = tags,
             sources = sources,
             people = people,
             people_ids = sorted(people.keys()) ))
@@ -126,7 +136,7 @@ def read_episodes(sources):
     return episodes
 
 def tag2path(tag):
-    return re.sub(r'\s+', '-', tag.lower())
+    return re.sub(r'[\W_]+', '-', tag.lower())
 
 def read_tags():
     tags = {}
