@@ -472,7 +472,7 @@
     "hosts" : {
         "michael-kennedy" : {}
     },
-    "keywords": ["Python", "PyCharm", "JetBrains"],
+    "keywords": ["Python", "PyCharm", "JetBrains", "IDE"],
     "permalink": "https://talkpython.fm/episodes/show/36/python-ides-with-the-pycharm-team",
     "title" : "Python IDEs with the PyCharm team",
     "date": "2015-12-01"
@@ -682,5 +682,83 @@
     "permalink": "https://talkpython.fm/episodes/show/51/sigopt-optimizing-everything-with-python",
     "title" : "SigOpt: Optimizing Everything with Python",
     "date": "2016-03-21"
+  },
+  {
+    "ep" : "52",
+    "guests": {
+         "kristinn-sigurbergsson" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "EVE Online", "game"], 
+    "permalink": "https://talkpython.fm/episodes/show/52/eve-online-mmo-game-powered-by-python",
+    "title" : "EVE Online: MMO game powered by Python",
+    "date": "2016-03-27"
+  },
+  {
+    "ep" : "53",
+    "guests": {
+         "steve-dower" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "IDE"], 
+    "permalink": "https://talkpython.fm/episodes/show/53/python-in-visual-studio",
+    "title" : "Python in Visual Studio",
+    "date": "2016-04-06"
+  },
+  {
+    "ep" : "54",
+    "guests": {
+         "mahmoud-hashemi" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"], 
+    "permalink": "https://talkpython.fm/episodes/show/54/enterprise-software-with-python",
+    "title" : "Enterprise Software with Python",
+    "date": "2016-04-14"
+  },
+  {
+    "ep" : "55",
+    "guests": {
+         "kate-heddleston" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python"], 
+    "permalink": "https://talkpython.fm/episodes/show/55/how-our-engineering-environments-are-killing-diversity-and-how-we-can-fix-it",
+    "title" : "How our engineering environments are killing diversity (and how we can fix it)",
+    "date": "2016-04-21"
+  },
+  {
+    "ep" : "56",
+    "guests": {
+         "joel-grus" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "numpy"], 
+    "permalink": "https://talkpython.fm/episodes/show/56/data-science-from-scratch",
+    "title" : "Data Science from Scratch",
+    "date": "2016-04-27"
+  },
+  {
+    "ep" : "57",
+    "guests": {
+         "david-stewart" : {}
+    },
+    "hosts" : {
+        "michael-kennedy" : {}
+    },
+    "keywords": ["Python", "PyPy"], 
+    "permalink": "https://talkpython.fm/episodes/show/57/python-performance-from-the-inside-out-at-intel",
+    "title" : "Python performance from the inside-out at Intel",
+    "date": "2016-05-05"
   }
 ]
