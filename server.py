@@ -13,12 +13,14 @@ class StaticServer(BaseHTTPRequestHandler):
         self.send_response(200)
         if filename[-4:] == '.css':
             self.send_header('Content-type', 'text/css')
+        elif filename[-4:] == '.ico':
+            self.send_header('Content-type', 'image/x-icon')
         else:
             self.send_header('Content-type', 'text/html')
         self.end_headers()
-        with open(filename) as fh:
+        with open(filename, 'rb') as fh:
             html = fh.read()
-            html = bytes(html, 'utf8')
+            #html = bytes(html, 'utf8')
             self.wfile.write(html)
 
 def run(server_class=HTTPServer, handler_class=StaticServer, port=8000):
