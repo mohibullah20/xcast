@@ -2,13 +2,13 @@
     <h2>Sources</h2>
     <ul id="sources">
     {% for s in sources %}
-        <li><a href="/s/{{ s.name }}">{{ s.title }}</a></li>
+        <li><a href="/s/{{ s.name }}">{{ s.title }}</a> ({{ s.episodes | length }})</li>
     {% endfor %}
     </ul>
     <h2>People</h2>
     <ul id="people">
     {% for p in people_ids %}
-        <li><a href="/p/{{ p }}">{{ people[p]['info']['name'] }}</a></li>
+        <li><a href="/p/{{ p }}">{{ people[p]['info']['name'] }}</a> ({{ people[p]['episodes'] | length  }} + {{ people[p]['hosting'] | length }})</li>
     {% endfor %}
     </ul>
 {% include 'incl/footer.html' %}
