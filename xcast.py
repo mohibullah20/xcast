@@ -78,9 +78,15 @@ def generate_pages(sources, people, tags):
             fh.write(tag_template.render(tag = tags[t]))
 
 
+    stats = {
+        'sources'  : len(sources),
+        'people'   : len(people),
+        'episodes' : sum(len(x['episodes']) for x in sources)
+    }
     main_template = env.get_template('index.html')
     with open('html/index.html', 'w') as fh:
         fh.write(main_template.render(
+            stats   = stats,
             tags    = tags,
             sources = sources,
             people = people,
