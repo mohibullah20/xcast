@@ -74,8 +74,8 @@ Site layout
 /s/source
 ```
 
-TODO:
------
+TODO (or maybe not?):
+-----------------------
 * Include the episode number for each episode
 * Add the GitHub/Twitter username of each person and the "home" page of each person.
 * For each source add a description.
@@ -84,7 +84,6 @@ TODO:
 * Include a picture of each person?
 * The Floss Weekly had a lot of other "providers" to subscribe through. Check those out.
 * The Floss Weekly has both an audio and video feed. Some other podcast might have too. Shall we include those too?
-* TODO add icons for RSS feed and iTunes subscribe button
 * Add Forkme on GitHub badge
 
 
