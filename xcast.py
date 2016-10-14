@@ -83,6 +83,7 @@ def generate_pages(sources, people, tags):
         'people'   : len(people),
         'episodes' : sum(len(x['episodes']) for x in sources)
     }
+
     main_template = env.get_template('index.html')
     with open('html/index.html', 'w') as fh:
         fh.write(main_template.render(
@@ -91,6 +92,30 @@ def generate_pages(sources, people, tags):
             sources = sources,
             people = people,
             people_ids = sorted(people.keys()) ))
+
+    with open('html/people', 'w') as fh:
+        fh.write(env.get_template('people.html').render(
+            stats   = stats,
+            tags    = tags,
+            sources = sources,
+            people = people,
+            people_ids = sorted(people.keys()) ))
+    with open('html/sources', 'w') as fh:
+        fh.write(env.get_template('sources.html').render(
+            stats   = stats,
+            tags    = tags,
+            sources = sources,
+            people = people,
+            people_ids = sorted(people.keys()) ))
+    with open('html/tags', 'w') as fh:
+        fh.write(env.get_template('tags.html').render(
+            stats   = stats,
+            tags    = tags,
+            sources = sources,
+            people = people,
+            people_ids = sorted(people.keys()) ))
+
+
 
 
 def read_people():
