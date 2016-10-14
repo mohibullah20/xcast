@@ -193,5 +193,19 @@
     "permalink": "http://code-maven.com/cmos-15-prosper-otemuyiwa",
     "title" : "Prosper Otemuyiwa - Laravel",
     "date": "2016-10-07"
+  },
+  {
+    "ep" : "16",
+    "guests": {
+      "jan-henning-thorsen" : {},
+      "marcus-ramberg" : {}
+    },
+    "hosts" : {
+        "gabor-szabo" : {}
+    },
+    "tags": ["Convos", "IRC", "Mojolicious", "web"],
+    "permalink": "http://code-maven.com/cmos-16-jan-henning-thorsen-and-marcus-ramberg",
+    "title" : "Jan Henning Thorsen and Marcus Ramberg about Convos, the web-based IRC client",
+    "date": "2016-10-14"
   }
 ]
