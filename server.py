@@ -11,7 +11,10 @@ class StaticServer(BaseHTTPRequestHandler):
             filename = root + self.path
 
         self.send_response(200)
-        self.send_header('Content-type', 'text/html')
+        if filename[-4:] == '.css':
+            self.send_header('Content-type', 'text/css')
+        else:
+            self.send_header('Content-type', 'text/html')
         self.end_headers()
         with open(filename) as fh:
             html = fh.read()
@@ -25,3 +28,6 @@ def run(server_class=HTTPServer, handler_class=StaticServer, port=8000):
     httpd.serve_forever()
 
 run()
+
+# vim: expandtab
+ 
