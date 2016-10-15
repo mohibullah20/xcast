@@ -1,0 +1,5 @@
+name:     Brian Douglas
+twitter:   brianllamar
+github:    brianllamar (but, not found)
+home:      https://briandouglas.me/
+country:   Ca, USA
