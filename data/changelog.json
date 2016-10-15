@@ -54,6 +54,148 @@
       "permalink": "https://changelog.com/4/",
       "title" : "Chrome OS, Thor and ROaR",
       "date": "2009-12-01"
+  },
+  {
+      "ep" : "5",
+      "guests": {
+        "jeremy-ashkenas" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["JAMMIT", "Underscore.js", "CloudCrowd"],
+      "permalink": "https://changelog.com/5/",
+      "title" : "Document Cloud and Underscore.js with Jeremy Ashkenas",
+      "date": "2009-12-06"
+  },
+  {
+      "ep" : "6",
+      "guests": {
+        "steven-bristol" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Open Source"],
+      "permalink": "https://changelog.com/6/",
+      "title" : "The Weekly News with Steven Bristol",
+      "date": "2009-12-15"
+  },
+  {
+      "ep" : "7",
+      "guests": {
+        "mike-dirolf" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["MongoDB"],
+      "permalink": "https://changelog.com/7/",
+      "title" : "10gen and MongoDB with Mike Dirolf",
+      "date": "2009-12-17"
+  },
+  {
+      "ep" : "8",
+      "guests": {
+        "marshall-culpepper" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Titanium", "Appcelerator"],
+      "permalink": "https://changelog.com/8/",
+      "title" : "Appcelerator's Titanium and Titanium Mobile with Marshall Culpepper",
+      "date": "2010-01-14"
+  },
+  {
+      "ep" : "9",
+      "guests": {
+        "marshall-culpepper" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Appcelerator", "News", "Node.js"],
+      "permalink": "https://changelog.com/9/",
+      "title" : "Fix-me, Configliere, and more Node.js",
+      "date": "2010-01-19"
+  },
+  {
+      "ep" : "10",
+      "guests": {
+        "chris-wanstrath" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["GitHub"],
+      "permalink": "https://changelog.com/10/",
+      "title" : "All Things GitHub with Chris Wanstrath",
+      "date": "2010-01-25"
+  },
+  {
+      "ep" : "11",
+      "guests": {
+        "john-nunemaker" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Open Source", "MongoDB", "Business"],
+      "permalink": "https://changelog.com/11/",
+      "title" : "Ordered List, RailsTips.org, and MongoMapper with John Nunemaker",
+      "date": "2010-01-29"
+  },
+  {
+      "ep" : "12",
+      "guests": {
+        "john-nunemaker" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Gordon", "Showoff", "jQuery Lint", "JSpec", "congomongo"],
+      "permalink": "https://changelog.com/12/",
+      "title" : "Gordon is such a Showoff",
+      "date": "2010-02-03"
+  },
+  {
+      "ep" : "13",
+      "guests": {
+        "luigi-ray-montanez" : {},
+        "jeremy-carbaugh" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Python", "Ruby", "Government Transparency", "Civic Hacking"],
+      "permalink": "https://changelog.com/13/",
+      "title" : "Civic hacking with Luigi Montanez and Jeremy Carbaugh",
+      "date": "2010-02-10"
+  },
+  {
+      "ep" : "14",
+      "guests": {
+        "andy-gross" : {},
+        "sean-cribbs" : {}
+      },
+      "hosts" : {
+          "adam-stacoviak" : {},
+  		"wynn-netherland" : {}
+      },
+      "keywords": ["Ruby", "Riak", "Ripple"],
+      "permalink": "https://changelog.com/14/",
+      "title" : "Riak, the New Erlang-based NoSQL Store with Andy Gross and Sean Cribbs",
+      "date": "2010-02-18"
   }
 ]
 
