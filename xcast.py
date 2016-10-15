@@ -104,7 +104,7 @@ def generate_pages(sources, people, tags):
         fh.write(env.get_template('sources.html').render(
             stats   = stats,
             tags    = tags,
-            sources = sources,
+            sources = sorted(sources, key=lambda x: x['title']),
             people = people,
             people_ids = sorted(people.keys()) ))
     with open('html/tags', 'w') as fh:
