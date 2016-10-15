@@ -1,0 +1,5 @@
+name:      Rachel Nabors
+twitter:   rachelnabors
+github:    rachelnabors
+home:      http://www.tinmagpie.com/ or http://rachelnabors.com/
+country:   Portland, USA
