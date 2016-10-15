@@ -92,6 +92,58 @@
     "date": "2014-10-26"
   },
   {
+    "ep" : "8",
+    "guests": {
+      "william-jeffries" : {}
+    },
+    "hosts" : {
+        "saron-yitbarek" : {}
+    },
+    "keywords": ["Student"],
+    "permalink": "http://www.codenewbie.org/podcast/from-student-project-to-big-app",
+    "title" : "From Student Project to Big App",
+    "date": "2014-11-03"
+  },
+  {
+    "ep" : "9",
+    "guests": {
+      "poornima-vijayashanker" : {}
+    },
+    "hosts" : {
+        "saron-yitbarek" : {}
+    },
+    "keywords": ["Product"],
+    "permalink": "http://www.codenewbie.org/podcast/how-to-build-a-product",
+    "title" : "How To Build A Product",
+    "date": "2014-11-09"
+  },
+  {
+    "ep" : "10",
+    "guests": {
+      "katrina-owen" : {}
+    },
+    "hosts" : {
+        "saron-yitbarek" : {}
+    },
+    "keywords": ["Nitpicks"],
+    "permalink": "http://www.codenewbie.org/podcast/nitpicks-and-devils",
+    "title" : "Nitpicks and Devils",
+    "date": "2014-11-16"
+  },
+  {
+    "ep" : "11",
+    "guests": {
+      "andrew-nesbitt" : {}
+    },
+    "hosts" : {
+        "saron-yitbarek" : {}
+    },
+    "keywords": ["Pull Request"],
+    "permalink": "http://www.codenewbie.org/podcast/24-pull-requests",
+    "title" : "24 Pull Requests",
+    "date": "2014-11-23"
+  },
+  {
     "ep" : "57",
     "guests": {
       "adam-stacoviak" : {},
